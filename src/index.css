@@ -11,3 +11,24 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.main-title{
+  font-family: 'Nunito', sans-serif;
+  font-size:55px;
+}
+
+.sub-title{
+  font-family: 'Zen Maru Gothic', sans-serif;;
+  font-size:23px;
+}
+.p-text{
+  font-family: 'Zen Maru Gothic', sans-serif;;
+  font-size:20px;
+}
+.btn{
+  font-family: 'Zen Maru Gothic', sans-serif;;
+  font-size:21px;
+  color:white;
+  cursor: pointer;
+  padding: 6px 25px;
+  text-align: center;
+}
