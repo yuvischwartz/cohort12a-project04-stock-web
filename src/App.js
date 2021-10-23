@@ -14,9 +14,20 @@ function App() {
           
 
               <div className={'grid grid-cols-12'}>
-                <div className={'col-span-12 border p-3'}>Box 3</div>
-                <div className={'col-span-12 md:col-span-6 border p-3'}>Box 4</div>
-                <div className={'col-span-12 md:col-span-6 border p-3'}>Box 5</div>
+                <div className={'col-span-12 border p-3'}>Box3</div>
+               <div className={'col-span-12 md:col-span-6 border p-3'}>
+                 {/* Box 4 */}
+                <h1 className={'text-2xl text-center'}>BHP - BHP Group Limited</h1>
+              </div>
+            <div className={'col-span-12 md:col-span-6 border p-3'}>
+              {/* Box 5 */}
+                <div className={'grid grid-cols-12'}>
+                <div className={'col-span-12 md:col-span-6 border p-3'}>
+                  <button>Buy</button></div>
+                <div className={'col-span-12 md:col-span-6 border p-3'}>
+                  <button>Sell</button></div>
+                </div>
+              </div>
                 <div className={'col-span-12 border p-3'}>Box 6</div>
               </div>
             </div>
