@@ -14,15 +14,25 @@ code {
 .main-title{
   font-family: 'Nunito', sans-serif;
   font-size:55px;
+  text-align: center;
 }
 
 .sub-title{
   font-family: 'Zen Maru Gothic', sans-serif;;
   font-size:23px;
+  
+}
+.sub-title2{
+  font-family: 'Zen Maru Gothic', sans-serif;;
+  font-size:19px;
+  font-weight: bold;
+  text-align: left;
+  
 }
 .p-text{
   font-family: 'Zen Maru Gothic', sans-serif;;
-  font-size:20px;
+  font-size:18px;
+  
 }
 .btn{
   font-family: 'Zen Maru Gothic', sans-serif;;
