@@ -20,7 +20,10 @@ function App() {
           
 
               <div className={'grid grid-cols-12'}>
-                <div className={'col-span-12 border p-3'}>SEARCH</div>
+              <div className={'col-span-12 border p-3 flex justify-center'}>
+                <input type={'text'} placeholder={'Search...'} className={'border p-2 m-2 w-6/12 p-text rounded text-black'}></input>
+                <button className={'search-btn bg-green-300 hover:bg-green-200 m-2 pl-5 pr-5 rounded'}><i className={'fas fa-search text-white'}></i></button>
+              </div>
                <div className={'col-span-12 md:col-span-6 border p-3'}>
                  {/* Box 4 */}
                 <h1 className={'sub-title'}>BHP - BHP Group Limited</h1>
@@ -54,21 +57,31 @@ function App() {
               </tr>
               <tr className={'border p-text'}>
                 <td>BHP</td>
-                <td> </td>
-                <td> </td>
+              <td> </td>
+              <td> </td>
+                <td><input type={'checkbox'}></input></td>
               </tr>
               <tr className={'border p-text'}>
                 <td>NAB</td>
                 <td> </td>
-                <td> </td>
+              <td> </td>
+              <td><input type={'checkbox'}></input></td>
+              
             </tr>
             <tr className={'border p-text'}>
                 <td>Cash</td>
                 <td> </td>
-                <td> </td>
+              <td> </td>
+              <td><input type={'checkbox'}></input></td>
               </tr>
           </table>   
           
+          {/* Hidden */}
+
+          <div>
+            
+            <h1 className={'p-text'}>NAB: you have 30 shares at $40.00 per share</h1>
+          </div>
           
             </div>
       </div>
